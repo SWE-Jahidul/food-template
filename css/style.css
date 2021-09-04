@@ -1,0 +1,190 @@
+/* navbar section Start */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+*{
+
+  font-family: 'Lato', sans-serif;
+
+}
+
+header{
+    background-color: #0B0C10;
+}
+
+a{
+    color: #da984d !important;
+}
+
+.navbar-brand
+{
+  font-family: 'Yeseva One', cursive;
+
+}
+
+.nav-animaton {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.nav-animaton * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.nav-animaton li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.4em 0.8em;
+  padding: 0;
+}
+.nav-animaton a {
+  padding: 0 0.7em;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+}
+.nav-animaton a:before {
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+  left: 15%;
+  right: 15%;
+  top: 0;
+  bottom: 0;
+  border-left: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+}
+.nav-animaton a:hover,
+.nav-animaton .current a {
+  color: #ffffff !important;
+}
+.nav-animaton a:hover:before,
+.nav-animaton .current a:before {
+  opacity: 1;
+  left: 0;
+  right: 0;
+}
+
+
+/* Navbar section End  */
+
+
+/* Hearder section Start */
+
+.top-header-section{
+    background-color: #0B0C10;
+
+}
+.text-colore{
+     color: #da984d;
+}
+
+.btn-outline-warning{
+    color: #da984d !important;
+}
+.btn-outline-warning:hover{
+color: black !important;
+background-color: #da984d !important;
+
+}
+
+.animate__animated.animate__fadeInLeft {
+    --animate-duration: 1s;
+  }
+/* Hearder section End */
+ 
+
+
+/* about us start  */
+
+.about-us-section{
+    background-color: #0B0C10;
+
+}
+
+
+/*  Explore our menu start */
+.food-details-time {
+  text-align: center;
+}
+.food-details-time a {
+  text-decoration: none;
+}
+
+.animate-explore-food
+{
+  --animate-duration: 1.5s;
+
+}
+/*  Explore our menu end */
+
+
+/* Recipes */
+.card{
+  background-color: #16171b !important;
+
+}
+.card:hover{
+   /* border-bottom: 3px solid #da984d ;
+  border-top: 3px solid #da984d; */
+background-color: #da984d !important ;
+text-shadow: 20px;
+}
+.hr-design{
+  width: 10%;
+  height: 5px !important;
+}
+
+/* Footer  */
+
+.footer{
+  background-color: #0B0C10;
+
+}
+
+.client-says-section{
+  background-color: #0B0C10 !important; 
+
+}
+
+.carousel{
+  background-color: #0B0C10 !important; 
+
+}
+
+.social-icons-f
+{
+  height: 45.6px;
+  width: 45.6px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+   align-items: center;
+}
+.social-icons-f i{
+  color: white;
+
+}
+.social-icons-f:hover
+{
+  background-color: #da984d;
+}
+
+
+.fixed-bottom1 {
+  position: fixed;
+  right: 5%;
+  bottom: 7%;
+  z-index: 1030;
+background-color: #da984d;
+}
+
+

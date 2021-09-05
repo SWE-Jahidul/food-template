@@ -119,6 +119,11 @@ background-color: #da984d !important;
   text-decoration: none;
 }
 
+.food-details-time a:hover{
+  color: white !important;
+
+}
+
 .animate-explore-food
 {
   --animate-duration: 1.5s;
@@ -162,7 +167,7 @@ background-color: #da984d !important;
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
   font-size: 0.75em;
   color: #999;
-  top: -5px;
+  top: -4px;
   -webkit-transition: all 0.225s ease;
   transition: all 0.225s ease;
 }

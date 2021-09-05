@@ -121,8 +121,33 @@ background-color: #da984d !important;
 
 .food-details-time a:hover{
   color: white !important;
-
+  /* transition-duration: 2s; */
+  Attention :animated bounce;
 }
+
+.food-details-time {
+
+  animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 1s infinite alternate;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-4px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-4px);
+  }
+}
+
+
 
 .animate-explore-food
 {
@@ -146,7 +171,7 @@ background-color: #da984d !important;
 
 .card:hover, .card-text-white:hover {
  
-  background-color: #da984d !important ;
+  background-color: #ffdbb3 !important ;
   color: #000000 !important;
   transform: scale(1.03);
 

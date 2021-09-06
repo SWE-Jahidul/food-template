@@ -122,7 +122,18 @@ background-color: #da984d !important;
 .food-details-time a:hover{
   color: white !important;
   /* transition-duration: 2s; */
-  Attention :animated bounce;
+}
+
+.explore-images {
+  transform-origin: 50% 65%;
+  transition: transform 10s, filter 3s ease-in-out;
+  filter: brightness(150%);
+}
+
+.explore-images img:hover {
+  transform: scale(1.1); 
+  filter: brightness(100%);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .food-details-time {
@@ -171,7 +182,7 @@ background-color: #da984d !important;
 
 .card:hover, .card-text-white:hover {
  
-  background-color: #ffdbb3 !important ;
+  background-color: #da984d !important ;
   color: #000000 !important;
   transform: scale(1.03);
 

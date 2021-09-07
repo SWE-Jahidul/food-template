@@ -94,6 +94,7 @@ a{
 color: black !important;
 background-color: #da984d !important;
 
+
 }
 
 .animate__animated.animate__fadeInLeft {
@@ -169,30 +170,53 @@ background-color: #da984d !important;
 
 
 /* Recipes */
-.card{
-  background-color: #16171b !important;
+.populer-recipy-design{
+  background-color: #16171b ;
 
 }
 
 .card-text-white{
-  color: #ffffff ;
+  color: white ;
 
 }
 
+small{
+  background-color: #da984d ;
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-top: 7px;
+ padding-bottom: 7px;
+ border-radius: 10px;
+}
 
-.card:hover, .card-text-white:hover {
  
+
+.card:hover, .add-to-chart-design small:hover{
+  background-color: #000000 ;
+color: white;
+}
+
+ 
+.card:hover,
+ .card-text-white:hover 
+ {
   background-color: #da984d !important ;
   color: #000000 !important;
   transform: scale(1.03);
-
   text-shadow: 20px;
+}
+
+.card:hover small{
+  background-color:black;
+  color: white;
+  cursor: pointer;
 }
 
 .hr-design{
   width: 10%;
   height: 5px !important;
 }
+
 
 /* Get in Touch start  */
 .contact-us
@@ -240,7 +264,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 
 input,
 textarea {
-  padding: 25px;
+  padding: 30px;
   border: 0;
   width: 100%;
   font-size: 1rem;

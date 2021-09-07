@@ -1,0 +1,23 @@
+
+.card {
+	&:hover {
+		background-color: #da984d !important;
+		color: #000000 !important;
+		transform: scale(1.03);
+		text-shadow: 20px;
+	}
+}
+.card-text-white {
+	&:hover {
+		background-color: #da984d !important;
+		color: #000000 !important;
+		transform: scale(1.03);
+		text-shadow: 20px;
+	}
+}
+.add-to-chart-design
+{
+    &:hover{
+  background-color: yellow !important;
+}	
+}
